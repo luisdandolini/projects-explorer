@@ -1,0 +1,129 @@
+/* RESET CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 8rem 0 8rem;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #1F1534;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 8rem 0 8rem;
+}
+
+.main_title {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  width: 489px;
+  margin-bottom: 2.5rem;
+}
+
+.main_title span {
+ color: #89C5CC; 
+}
+
+.main_text {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: .875rem;
+  color: #7D7987;
+  width: 410px;
+  line-height: 1.78rem;
+}
+
+.main_text span {
+  font-weight: 700;
+}
+
+.button_whats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 179px;
+  height: 56px;
+  background-color: #69B99D;
+  border: none;
+  border-radius: 4px;
+  color: #FFFFFF;
+  margin-top: 2.5rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .875rem;
+}
+
+.footer span {
+  font-weight: 700;
+}
+
+.decoration {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
